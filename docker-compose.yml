@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  frontend:
+    image: idurar-erp-crm-frontend
+    container_name: idurar-erp-crm-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    image: idurar-erp-crm-backend
+    container_name: idurar-erp-crm-backend
+    ports:
+      - "5000:5000"
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/idurar-erp-crm
+    depends_on:
+      - mongo
+
+  mongo:
+    image: mongo:6
+    container_name: idurar-erp-crm-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
