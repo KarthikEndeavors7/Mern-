@@ -1,21 +1,34 @@
-import express from 'express';
-import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+// server.js
+import express from "express";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-dotenv.config();
+dotenv.config(); // load variables from .env
 
 const app = express();
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORT || 5000;
+const MONGO_URI = process.env.MONGO_URI;
 
-// Example schema
-const TestSchema = new mongoose.Schema({ name: String });
-const Test = mongoose.model('Test', TestSchema);
+// Check if MONGO_URI is defined
+if (!MONGO_URI) {
+  console.error("🚫 Error: MONGO_URI is not defined in your .env file!");
+  process.exit(1); // stop the app
+}
 
-app.get('/', (req, res) => res.send('Server is running!'));
+// Connect to MongoDB
+mongoose.connect(MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+})
+.then(() => console.log("✅ MongoDB connected"))
+.catch(err => console.error("❌ MongoDB connection error:", err));
 
-app.get('/test', async (req, res) => {
-  const data = await Test.find();
-  res.json(data);
+app.use(express.json());
+
+app.get("/", (req, res) => {
+  res.send("API is running...");
 });
 
-app.listen(PORT, () => console.log(`Express running → On PORT : ${PORT}`));
+app.listen(PORT, () => {
+  console.log(`Express running → On PORT : ${PORT}`);
+});
