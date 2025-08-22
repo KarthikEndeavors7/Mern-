@@ -14,12 +14,12 @@
 #       - name: Checkout code
 #         uses: actions/checkout@v3
 
-#       # Login to Docker Hub
-#       - name: Docker Login
-#         uses: docker/login-action@v2
-#         with:
-#           username: karthikendeavours25
-#           password: karthik2512
+      # # Login to Docker Hub
+      # - name: Docker Login
+      #   uses: docker/login-action@v2
+      #   with:
+      #     username: karthikendeavours25
+      #     password: karthik2512
 
 #       # Build Docker Image
 #       - name: Build Docker Image
@@ -65,11 +65,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+            # Login to Docker Hub
       - name: Docker Login
         uses: docker/login-action@v2
         with:
-          username: ${{ secrets.DOCKER_HUB_USERNAME }}
-          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+          username: karthikendeavours25
+          password: karthik2512
 
       - name: Build Docker Image
         shell: powershell
