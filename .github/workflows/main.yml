@@ -73,12 +73,11 @@ jobs:
           password: karthik2512
 
       - name: Build Docker Image
-        shell: powershell
-        run: |
-          docker build --pull -t karthikendeavours25/idurar-app:latest .
+  run: |
+    docker build --pull -t karthikendeavours25/idurar-app:latest ./frontend
+
 
       - name: Push Docker Image
-        shell: powershell
         run: |
           docker push karthikendeavours25/idurar-app:latest
 
