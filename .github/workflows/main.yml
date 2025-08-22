@@ -80,4 +80,10 @@ jobs:
       - name: Push Docker Image
         run: |
           docker push karthikendeavours25/idurar-app:latest
+          
+ Deploy to Localhost     
+      - name: Deploy Container on Localhost
+         run: |
+           docker rm -f idurar-erp-crm 2>$null || echo "No container to remove"
+           docker run -d --name idurar-erp-crm -p 3000:3000 karthikendeavours25/idurar-app:latest
 
