@@ -22,16 +22,18 @@
       #     password: karthik2512
 
 #       # Build Docker Image
-#       - name: Build Docker Image
-#         shell: powershell
-#         run: |
-#           docker build --pull -t karthikendeavours25/idurar-app:latest .
+- name: Build Docker Image
+  shell: powershell
+  run: |
+    # Optional: navigate to the folder where Dockerfile exists
+    cd ./backend   # replace with actual path if Dockerfile is in a subfolder
+    docker build --pull -t karthikendeavours25/idurar-app:latest .
 
-#       # Push Docker Image to Docker Hub
-#       - name: Push Docker Image
-#         shell: powershell
-#         run: |
-#           docker push karthikendeavours25/idurar-app:latest
+# Push Docker Image to Docker Hub
+- name: Push Docker Image
+  shell: powershell
+  run: |
+    docker push karthikendeavours25/idurar-app:latest
 
 #       # Push changes back to GitHub
 #       - name: Push GitHub Code
