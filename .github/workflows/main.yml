@@ -14,27 +14,26 @@
 #       - name: Checkout code
 #         uses: actions/checkout@v3
 
-      # # Login to Docker Hub
-      # - name: Docker Login
-      #   uses: docker/login-action@v2
-      #   with:
-      #     username: karthikendeavours25
-      #     password: karthik2512
+      # Login to Docker Hub
+- name: Docker Login
+  uses: docker/login-action@v2
+  with:
+    username:karthikendeavours25
+    password:karthik2512
 
-#       # Build Docker Image
+# Build Docker Image
 - name: Build Docker Image
   shell: powershell
   run: |
-    # Optional: navigate to the folder where Dockerfile exists
-    cd ./backend   # replace with actual path if Dockerfile is in a subfolder
+    # Navigate to Dockerfile folder only if needed
+    cd ./backend   # remove or change if Dockerfile is in root
     docker build --pull -t karthikendeavours25/idurar-app:latest .
 
-# Push Docker Image to Docker Hub
+# Push Docker Image
 - name: Push Docker Image
   shell: powershell
   run: |
     docker push karthikendeavours25/idurar-app:latest
-
 #       # Push changes back to GitHub
 #       - name: Push GitHub Code
 #         shell: powershell
