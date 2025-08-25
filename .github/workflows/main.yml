@@ -30,7 +30,7 @@ jobs:
        git config --global user.email "karthik.endeavors@gmail.com"
        git add .
        git commit -m "Auto commit from GitHub Actions" || echo "No changes to commit"
-       git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KarthikEndeavors7/Mern-.git main
+       git push https://x-access-token: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@github.com/KarthikEndeavors7/Mern-.git main
 
       - name: Deploy Container on Localhost
         run: |
