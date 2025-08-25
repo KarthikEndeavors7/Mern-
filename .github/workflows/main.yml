@@ -24,7 +24,6 @@ jobs:
 
       - name: Push Docker Image
         run: docker push karthikendeavours25/idurar-app:latest
-
 - name: Commit GitHub Changes
   run: |
     git config --global user.name "KarthikEndeavors7"
