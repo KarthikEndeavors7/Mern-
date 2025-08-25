@@ -1,0 +1,272 @@
+[33mcommit 4992339d62d4860ebec73a4f3c597549cfdddfbc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: KarthikEndeavors7 <karthik.endeavors@gmail.com>
+Date:   Thu Aug 21 11:34:39 2025 +0530
+
+    Initial commit
+
+[33mcommit 43cc41b0587a1f035fe06b1c39864e7ecfa9b3d6[m
+Author: KarthikEndeavors7 <karthik.endeavors@gmail.com>
+Date:   Mon Aug 18 15:54:45 2025 +0530
+
+    Initial commit
+
+[33mcommit 078adc19f268bf0bc693f90faf7e8cf98c94621c[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sat Aug 16 01:37:46 2025 +0100
+
+    Update README.md
+
+[33mcommit b676a7f6bb734455d233205fdaae85b552bff455[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sat Aug 16 01:37:14 2025 +0100
+
+    Update README.md
+
+[33mcommit fae857e9c9a71ff2ba53aa16eeae207e00744d04[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Wed Aug 13 16:45:24 2025 +0100
+
+    Update README.md
+
+[33mcommit 8add2c5348921db026ac8df50d972d32c93140ee[m
+Author: Salah <lalami.sdn@gmail.com>
+Date:   Thu Jul 31 16:53:35 2025 +0100
+
+    add admin default value
+
+[33mcommit 578283e0aec1faccc399d0f8e2a2ba15717c7d15[m
+Author: Salah <lalami.sdn@gmail.com>
+Date:   Thu Jul 31 16:51:53 2025 +0100
+
+    update admin cred
+
+[33mcommit e0426cff79e2ee68fdad38161cbfc3b256fc2519[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Thu Jul 31 12:24:36 2025 +0100
+
+    Update README.md
+
+[33mcommit 51eecb0cd2aa143eacfa8260234a13c4ecd551e9[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sat Apr 12 13:00:36 2025 +0100
+
+    Update README.md
+
+[33mcommit 5908441221c5a166917856380ee87a06124beb1e[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sat Apr 12 12:44:54 2025 +0100
+
+    Update README.md
+
+[33mcommit 39a116b7132f9223f4d5e974ac39215a26391b7a[m
+Merge: 949bc6fe f68317f6
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Tue Feb 11 10:24:16 2025 +0100
+
+    Merge commit from fork
+    
+    fix the issue with path
+
+[33mcommit f68317f6e1ffd35246654f3660778d1984a53ad5[m
+Author: Nishant Jain <nishantjain@ArcherL-MCB.local>
+Date:   Mon Feb 10 22:41:27 2025 -0800
+
+    add decodeURI component
+
+[33mcommit 70821343f0374b47c0f9f4ab04fdd96ad30a86f0[m
+Author: Nishant Jain <nishantjain@ArcherL-MCB.local>
+Date:   Thu Feb 6 02:55:42 2025 -0800
+
+    fix the issue with path
+
+[33mcommit 949bc6fe31f3175c9e1864d30cf6c8110179ac14[m
+Merge: 100525d1 5860bc53
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Fri Oct 4 10:12:50 2024 +0100
+
+    Merge commit from fork
+    
+    Fix for path traversal (GHSA-948g-2vm7-mfv7)
+
+[33mcommit 5860bc53261e8dd69087b456bd6ae92f9d20728b[m
+Author: DoMINAToR98 <98kartik.sharma@gmail.com>
+Date:   Fri Oct 4 00:03:43 2024 -0700
+
+    added comment
+
+[33mcommit 0d623e1753a40442571954053de9fbb5072a8417[m
+Author: DoMINAToR98 <98kartik.sharma@gmail.com>
+Date:   Fri Oct 4 00:01:32 2024 -0700
+
+    fix for subPath path traversal
+
+[33mcommit 100525d1d3ad4003da2afdf3987b4eab87f3d725[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Wed Oct 2 21:16:11 2024 +0100
+
+    Update README.md
+
+[33mcommit 36b1d5e99bae046f4940c313555eb4d572ad80c1[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Wed Oct 2 19:43:26 2024 +0100
+
+    prevent demo account change
+
+[33mcommit 1d9840688072824de4e73d0d9ba54f5303a9c737[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Tue Oct 1 10:35:27 2024 +0100
+
+    fix button color
+
+[33mcommit 9ba200f1432627cd1b5b4c7367ccc4da7ae83914[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Tue Oct 1 10:30:24 2024 +0100
+
+    Update README.md
+
+[33mcommit 4609439b496432f21c4e4082d00c25d0631260fc[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Tue Oct 1 10:29:30 2024 +0100
+
+    add entreprise link
+
+[33mcommit cf30c6f7f892a8a40acd829804d39cc9fd419f9d[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Tue Oct 1 10:23:14 2024 +0100
+
+    Update README.md
+
+[33mcommit fc4c324da989c4e76a7d1dafb023639c508b4085[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Tue Oct 1 10:21:25 2024 +0100
+
+    add cloud link version
+
+[33mcommit 49f15f3d6d503993c13c3cdfc1e41c5a1b84edde[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 17:35:54 2024 +0100
+
+    improve ui
+
+[33mcommit d53b3c907adfd32630ee9e6e845f5373e6a00873[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 17:31:12 2024 +0100
+
+    improve dashboard ui
+
+[33mcommit cb93d530de718d15e14d273e48dfa00b029e03cd[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 17:25:11 2024 +0100
+
+    remove unused code
+
+[33mcommit 64d28611293227d5f78db3fea9b42481328ff6cc[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 17:23:13 2024 +0100
+
+    Imrpove Colors
+
+[33mcommit 012f39a43bdb899c9337fe76797f25357d473ff4[m[33m ([m[1;33mtag: [m[1;33m4.1.0[m[33m)[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sun Sep 29 17:00:21 2024 +0100
+
+    Update README.md
+
+[33mcommit 8ffda8f7ea7769ae9a2162933cfe2e6ab8e92f6e[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 16:46:43 2024 +0100
+
+    update dashboard
+
+[33mcommit 0141618ead60d223c8cb6e5647c1e88d1c27af45[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 16:45:03 2024 +0100
+
+    update dashboard
+
+[33mcommit 67f6b76e661d0915e0d7d42992664c7ea4a4d940[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 16:28:11 2024 +0100
+
+    add jwtExpired on error
+
+[33mcommit e9fedc200d2f0d9afbc474ba1ae6c82185a714a4[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 16:26:05 2024 +0100
+
+    fix unwanted error
+
+[33mcommit e20a7684466f589711d96d48e8dbefd759dd8112[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 16:19:55 2024 +0100
+
+    Fix Auth
+
+[33mcommit 44fdfd65103ada51f1b021e23e5e89372e8ce441[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 11:08:48 2024 +0100
+
+    improve auth typo ui
+
+[33mcommit ffa01f491952799fd2a1669133cfa47904579e70[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 04:47:04 2024 +0100
+
+    improve performance
+
+[33mcommit b0825983fc0f9dfadd6add189fd9f356602bc9dd[m
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sun Sep 29 04:43:31 2024 +0100
+
+    Update README.md
+
+[33mcommit 1c8262f4d6c43fe3cd4ba7e5f0311877b7b5e8f8[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 03:01:47 2024 +0100
+
+    update auth
+
+[33mcommit 92a584368e8070181a3744f75466ad07e5f86049[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 02:46:59 2024 +0100
+
+    Fix Quote
+
+[33mcommit 24eb8e1ebba394e969478ed4bed8e30046f80069[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 02:39:57 2024 +0100
+
+    remove docker
+
+[33mcommit 008fd445893ad08517932efc908f75803797b425[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 02:33:26 2024 +0100
+
+    update package
+
+[33mcommit 9c018e843232bf6d295a68a3e348c5b195f5509e[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 00:42:28 2024 +0100
+
+    Fix routes
+
+[33mcommit c298c5015eb92884921709d3c1871e0fd3d05fe0[m
+Merge: d7b2215a 18a35f25
+Author: Salah Eddine Lalami <136928179+salahlalami@users.noreply.github.com>
+Date:   Sun Sep 29 00:34:22 2024 +0100
+
+    Merge pull request #1173 from idurar/feat/upgrade-open-source
+    
+    Feat/upgrade open source
+
+[33mcommit 18a35f2531ecef1c83b7ae175e3ac94f12b2987b[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 00:33:43 2024 +0100
+
+    update licence
+
+[33mcommit c7557196745d0c399b3bb414070f8a7a35015af1[m
+Author: Salah Eddine Lalami <lalami.sdn@gmail.com>
+Date:   Sun Sep 29 00:28:09 2024 +0100
+
+    Add Try premium ver
