@@ -32,7 +32,6 @@ jobs:
     git add .
     git diff --quiet && echo "No changes to commit" || git commit -m "Auto commit from GitHub Actions"
     git push https://x-access-token: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@github.com/KarthikEndeavors7/Mern.git main
-
 - name: Deploy Container on Localhost
   run: |
     docker stop idurar-erp-crm 2>/dev/null || echo "No container running"
