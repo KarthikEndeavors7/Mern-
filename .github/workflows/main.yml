@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: windows-latest   # ✅ Windows runner
+   runs-on: ubuntu-latest
 
     steps:
       # Checkout repo
