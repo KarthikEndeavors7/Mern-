@@ -24,16 +24,17 @@ jobs:
 
       - name: Push Docker Image
         run: docker push karthikendeavours25/idurar-app:latest
-- name: Commit GitHub Changes
-  run: |
-    git config --global user.name "KarthikEndeavors7"
-    git config --global user.email "karthik.endeavors@gmail.com"
-    git add .
-    git diff --quiet && echo "No changes to commit" || git commit -m "Auto commit from GitHub Actions"
-    git push https://x-access-token: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@github.com/KarthikEndeavors7/Mern.git main
 
-- name: Deploy Container on Localhost
-  run: |
-    docker stop idurar-erp-crm 2>/dev/null || echo "No container running"
-    docker rm idurar-erp-crm 2>/dev/null || echo "No container to remove"
-    docker run -d --name idurar-erp-crm -p 3000:3000 karthikendeavours25/idurar-app:latest
+      - name: Commit GitHub Changes
+        run: |
+          git config --global user.name "KarthikEndeavors7"
+          git config --global user.email "karthik.endeavors@gmail.com"
+          git add .
+          git diff --quiet && echo "No changes to commit" || git commit -m "Auto commit from GitHub Actions"
+          git push https://x-access-token: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@github.com/KarthikEndeavors7/Mern.git main
+
+      - name: Deploy Container on Localhost
+        run: |
+          docker stop idurar-erp-crm 2>/dev/null || echo "No container running"
+          docker rm idurar-erp-crm 2>/dev/null || echo "No container to remove"
+          docker run -d --name idurar-erp-crm -p 3000:3000 karthikendeavours25/idurar-app:latest
