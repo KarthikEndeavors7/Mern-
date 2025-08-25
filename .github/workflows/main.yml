@@ -7,9 +7,7 @@ on:
 
 jobs:
   build-and-deploy:
-   runs-on: windows-latest   # ✅ Windows runner
-
-
+    runs-on: windows-latest   # ✅ Windows runner
 
     steps:
       # Checkout repo
@@ -35,7 +33,7 @@ jobs:
         run: |
           docker push karthikendeavours25/idurar-app:latest
 
-      # Commit GitHub changes (optional, if you want auto-commits)
+      # Commit GitHub changes (optional)
       - name: Commit GitHub Changes
         shell: powershell
         run: |
