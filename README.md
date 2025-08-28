@@ -16,19 +16,23 @@ IDURAR is Open Source ERP / CRM (Invoice / Quote / Accounting ) Based on Advance
 
 </div>
 
-**Live Open Source Version** : [https://www.idurarapp.com](https://www.idurarapp.com)
+**Live App Free Cloud Version** : [https://www.idurarapp.com/demo-erp-crm/](https://www.idurarapp.com/demo-erp-crm/)
+```
+username : admin@demo.com
+password : admin123
+```
 
 
+
+### Try IDURAR Entreprise :
+
+- [https://cloud.idurarapp.com](https://cloud.idurarapp.com)
 
 ## Features :
 
-Invoice Management
+Invoice Management 💰
 
-Payment Management
-
-Quote Management
-
-Customer Management
+Accounting Management 📈
 
 Ant Design Framework(AntD) 🐜
 
@@ -37,6 +41,10 @@ Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) 👨‍💻
 ### May i can use IDURAR for Commercial use :
 
 - Yes You can use IDURAR for free for personal or Commercial use.
+
+### For custom developement service or premium Support :
+
+[Get in touch](mailto:hello@idurarapp.com)
 
 ## Our Sponsors
 
@@ -52,6 +60,7 @@ Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) 👨‍💻
 
 IDURAR is Open "Fair-Code" Source ERP / CRM (Invoice / Inventory / Accounting / HR) Based on Mern Stack (Node.js / Express.js / MongoDb / React.js ) with Ant Design (AntD) and Redux
 
+**Live App Demo** : [https://www.idurarapp.com/demo-erp-crm/](https://www.idurarapp.com/demo-erp-crm/)
 
 ## Getting started
 
@@ -89,6 +98,9 @@ IDURAR is Open "Fair-Code" Source ERP / CRM (Invoice / Inventory / Accounting / 
 
 7.[Questions](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#questions)
 
+## Custom Development Service
+
+Custom Development Service are available : [Get in touch](mailto:hello@idurarapp.com)
 
 ## Show your support
 
